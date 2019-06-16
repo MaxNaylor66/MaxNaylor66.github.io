@@ -200,7 +200,7 @@ gdjs.TitleScreenCode.condition1IsTrue_0 = {val:false};
 gdjs.TitleScreenCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDStartBoxObjects1Objects = Hashtable.newFrom({"StartBox": gdjs.TitleScreenCode.GDStartBoxObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDHelpBoxObjects1Objects = Hashtable.newFrom({"HelpBox": gdjs.TitleScreenCode.GDHelpBoxObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDWindowHelpObjects1Objects = Hashtable.newFrom({"WindowHelp": gdjs.TitleScreenCode.GDWindowHelpObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDBackBoxObjects1Objects = Hashtable.newFrom({"BackBox": gdjs.TitleScreenCode.GDBackBoxObjects1});gdjs.TitleScreenCode.eventsList0xb2358 = function(runtimeScene) {
+gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDStartBoxObjects1Objects = Hashtable.newFrom({"StartBox": gdjs.TitleScreenCode.GDStartBoxObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDHelpBoxObjects1Objects = Hashtable.newFrom({"HelpBox": gdjs.TitleScreenCode.GDHelpBoxObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDWindowHelpObjects1Objects = Hashtable.newFrom({"WindowHelp": gdjs.TitleScreenCode.GDWindowHelpObjects1});gdjs.TitleScreenCode.mapOfGDgdjs_46TitleScreenCode_46GDBackBoxObjects1Objects = Hashtable.newFrom({"BackBox": gdjs.TitleScreenCode.GDBackBoxObjects1});gdjs.TitleScreenCode.eventsList0xb23e0 = function(runtimeScene) {
 
 {
 
@@ -406,11 +406,12 @@ gdjs.TitleScreenCode.GDWindowHelpObjects1.createFrom(runtimeScene.getObjects("Wi
 }
 
 
-}; //End of gdjs.TitleScreenCode.eventsList0xb2358
+}; //End of gdjs.TitleScreenCode.eventsList0xb23e0
 
 
 gdjs.TitleScreenCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
+
 gdjs.TitleScreenCode.GDMetalPlatformGameOverObjects1.length = 0;
 gdjs.TitleScreenCode.GDMetalPlatformGameOverObjects2.length = 0;
 gdjs.TitleScreenCode.GDMetalPlatformObjects1.length = 0;
@@ -606,7 +607,8 @@ gdjs.TitleScreenCode.GDMalfunctionImageObjects2.length = 0;
 gdjs.TitleScreenCode.GDBackBoxObjects1.length = 0;
 gdjs.TitleScreenCode.GDBackBoxObjects2.length = 0;
 
-gdjs.TitleScreenCode.eventsList0xb2358(runtimeScene);
+gdjs.TitleScreenCode.eventsList0xb23e0(runtimeScene);
 return;
+
 }
 gdjs['TitleScreenCode'] = gdjs.TitleScreenCode;
