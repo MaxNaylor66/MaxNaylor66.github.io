@@ -412,7 +412,7 @@ gdjs.TestChamberCode.condition19IsTrue_1 = {val:false};
 gdjs.TestChamberCode.condition20IsTrue_1 = {val:false};
 
 
-gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRestartBoxObjects1Objects = Hashtable.newFrom({"RestartBox": gdjs.TestChamberCode.GDRestartBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMainMenuBoxObjects1Objects = Hashtable.newFrom({"MainMenuBox": gdjs.TestChamberCode.GDMainMenuBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRestartBoxObjects1Objects = Hashtable.newFrom({"RestartBox": gdjs.TestChamberCode.GDRestartBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMainMenuBoxObjects1Objects = Hashtable.newFrom({"MainMenuBox": gdjs.TestChamberCode.GDMainMenuBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.eventsList0xbce61c = function(runtimeScene) {
+gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRestartBoxObjects1Objects = Hashtable.newFrom({"RestartBox": gdjs.TestChamberCode.GDRestartBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMainMenuBoxObjects1Objects = Hashtable.newFrom({"MainMenuBox": gdjs.TestChamberCode.GDMainMenuBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRestartBoxObjects1Objects = Hashtable.newFrom({"RestartBox": gdjs.TestChamberCode.GDRestartBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMainMenuBoxObjects1Objects = Hashtable.newFrom({"MainMenuBox": gdjs.TestChamberCode.GDMainMenuBoxObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallGameOverObjects1Objects = Hashtable.newFrom({"SpikeBallGameOver": gdjs.TestChamberCode.GDSpikeBallGameOverObjects1});gdjs.TestChamberCode.eventsList0xebb2e4 = function(runtimeScene) {
 
 {
 
@@ -461,8 +461,8 @@ gdjs.TestChamberCode.GDPlayerObjects1.length = k;}if (gdjs.TestChamberCode.condi
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbce61c
-gdjs.TestChamberCode.eventsList0xbcf35c = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebb2e4
+gdjs.TestChamberCode.eventsList0xebc084 = function(runtimeScene) {
 
 {
 
@@ -487,8 +487,8 @@ gdjs.TestChamberCode.GDPlayerObjects2.length = k;}if (gdjs.TestChamberCode.condi
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbcf35c
-gdjs.TestChamberCode.eventsList0xbcf074 = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebc084
+gdjs.TestChamberCode.eventsList0xebbd54 = function(runtimeScene) {
 
 {
 
@@ -500,7 +500,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(r
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12383268);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15450444);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
@@ -513,14 +513,14 @@ if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
 }
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbcf35c(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebc084(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbcf074
-gdjs.TestChamberCode.eventsList0xbcee9c = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebbd54
+gdjs.TestChamberCode.eventsList0xebbb7c = function(runtimeScene) {
 
 {
 
@@ -584,7 +584,7 @@ gdjs.TestChamberCode.GDPlayerObjects2.length = k;}}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbcf074(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebbd54(runtimeScene);} //End of subevents
 }
 
 }
@@ -616,8 +616,8 @@ gdjs.TestChamberCode.GDPlayerObjects1.length = k;}if (gdjs.TestChamberCode.condi
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbcee9c
-gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDDoubleJumpPowerObjects1Objects = Hashtable.newFrom({"DoubleJumpPower": gdjs.TestChamberCode.GDDoubleJumpPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinDozerPowerObjects1Objects = Hashtable.newFrom({"CoinDozerPower": gdjs.TestChamberCode.GDCoinDozerPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFreezePowerObjects1Objects = Hashtable.newFrom({"FreezePower": gdjs.TestChamberCode.GDFreezePowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDInvincibilityPowerObjects1Objects = Hashtable.newFrom({"InvincibilityPower": gdjs.TestChamberCode.GDInvincibilityPowerObjects1});gdjs.TestChamberCode.eventsList0xbd2a2c = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebbb7c
+gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDDoubleJumpPowerObjects1Objects = Hashtable.newFrom({"DoubleJumpPower": gdjs.TestChamberCode.GDDoubleJumpPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinDozerPowerObjects1Objects = Hashtable.newFrom({"CoinDozerPower": gdjs.TestChamberCode.GDCoinDozerPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFreezePowerObjects1Objects = Hashtable.newFrom({"FreezePower": gdjs.TestChamberCode.GDFreezePowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDInvincibilityPowerObjects1Objects = Hashtable.newFrom({"InvincibilityPower": gdjs.TestChamberCode.GDInvincibilityPowerObjects1});gdjs.TestChamberCode.eventsList0xebf99c = function(runtimeScene) {
 
 {
 
@@ -644,8 +644,8 @@ gdjs.TestChamberCode.GDCoinDozerPowerObjects1.length = k;}if (gdjs.TestChamberCo
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd2a2c
-gdjs.TestChamberCode.eventsList0xbd2ef4 = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebf99c
+gdjs.TestChamberCode.eventsList0xebfe64 = function(runtimeScene) {
 
 {
 
@@ -672,8 +672,8 @@ gdjs.TestChamberCode.GDDoubleJumpPowerObjects1.length = k;}if (gdjs.TestChamberC
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd2ef4
-gdjs.TestChamberCode.eventsList0xbd33ec = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xebfe64
+gdjs.TestChamberCode.eventsList0xec035c = function(runtimeScene) {
 
 {
 
@@ -700,8 +700,8 @@ gdjs.TestChamberCode.GDInvincibilityPowerObjects1.length = k;}if (gdjs.TestChamb
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd33ec
-gdjs.TestChamberCode.eventsList0xbd3914 = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xec035c
+gdjs.TestChamberCode.eventsList0xec0884 = function(runtimeScene) {
 
 {
 
@@ -728,11 +728,11 @@ gdjs.TestChamberCode.GDFreezePowerObjects1.length = k;}if (gdjs.TestChamberCode.
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd3914
-gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinDozerPowerObjects1Objects = Hashtable.newFrom({"CoinDozerPower": gdjs.TestChamberCode.GDCoinDozerPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDDoubleJumpPowerObjects1Objects = Hashtable.newFrom({"DoubleJumpPower": gdjs.TestChamberCode.GDDoubleJumpPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFreezePowerObjects1Objects = Hashtable.newFrom({"FreezePower": gdjs.TestChamberCode.GDFreezePowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDInvincibilityPowerObjects1Objects = Hashtable.newFrom({"InvincibilityPower": gdjs.TestChamberCode.GDInvincibilityPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.TestChamberCode.GDCoinObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.TestChamberCode.GDCoinObjects1});gdjs.TestChamberCode.eventsList0xbd92cc = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xec0884
+gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinDozerPowerObjects1Objects = Hashtable.newFrom({"CoinDozerPower": gdjs.TestChamberCode.GDCoinDozerPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDDoubleJumpPowerObjects1Objects = Hashtable.newFrom({"DoubleJumpPower": gdjs.TestChamberCode.GDDoubleJumpPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFreezePowerObjects1Objects = Hashtable.newFrom({"FreezePower": gdjs.TestChamberCode.GDFreezePowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDInvincibilityPowerObjects1Objects = Hashtable.newFrom({"InvincibilityPower": gdjs.TestChamberCode.GDInvincibilityPowerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.TestChamberCode.GDCoinObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.TestChamberCode.GDCoinObjects1});gdjs.TestChamberCode.eventsList0xec638c = function(runtimeScene) {
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd92cc
-gdjs.TestChamberCode.eventsList0xbd916c = function(runtimeScene) {
+}; //End of gdjs.TestChamberCode.eventsList0xec638c
+gdjs.TestChamberCode.eventsList0xec622c = function(runtimeScene) {
 
 {
 
@@ -755,7 +755,7 @@ if (true) {
 }
 
 
-}; //End of gdjs.TestChamberCode.eventsList0xbd916c
+}; //End of gdjs.TestChamberCode.eventsList0xec622c
 gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot1Objects1Objects = Hashtable.newFrom({"Robot1": gdjs.TestChamberCode.GDRobot1Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot1Objects1Objects = Hashtable.newFrom({"Robot1": gdjs.TestChamberCode.GDRobot1Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot2Objects1Objects = Hashtable.newFrom({"Robot2": gdjs.TestChamberCode.GDRobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot2Objects1Objects = Hashtable.newFrom({"Robot2": gdjs.TestChamberCode.GDRobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot3Objects1Objects = Hashtable.newFrom({"Robot3": gdjs.TestChamberCode.GDRobot3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRobot3Objects1Objects = Hashtable.newFrom({"Robot3": gdjs.TestChamberCode.GDRobot3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFireballObjects1Objects = Hashtable.newFrom({"Fireball": gdjs.TestChamberCode.GDFireballObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDFlameObjects1Objects = Hashtable.newFrom({"Flame": gdjs.TestChamberCode.GDFlameObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissileObjects1Objects = Hashtable.newFrom({"Missile": gdjs.TestChamberCode.GDMissileObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile2Objects1Objects = Hashtable.newFrom({"Missile2": gdjs.TestChamberCode.GDMissile2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile3Objects1Objects = Hashtable.newFrom({"Missile3": gdjs.TestChamberCode.GDMissile3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissileObjects2Objects = Hashtable.newFrom({"Missile": gdjs.TestChamberCode.GDMissileObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects2Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissileObjects2Objects = Hashtable.newFrom({"Missile": gdjs.TestChamberCode.GDMissileObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMetalPlatformObjects2Objects = Hashtable.newFrom({"MetalPlatform": gdjs.TestChamberCode.GDMetalPlatformObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile2Objects2Objects = Hashtable.newFrom({"Missile2": gdjs.TestChamberCode.GDMissile2Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects2Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile2Objects2Objects = Hashtable.newFrom({"Missile2": gdjs.TestChamberCode.GDMissile2Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMetalPlatformObjects2Objects = Hashtable.newFrom({"MetalPlatform": gdjs.TestChamberCode.GDMetalPlatformObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile3Objects2Objects = Hashtable.newFrom({"Missile3": gdjs.TestChamberCode.GDMissile3Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects2Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile3Objects2Objects = Hashtable.newFrom({"Missile3": gdjs.TestChamberCode.GDMissile3Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMetalPlatformObjects2Objects = Hashtable.newFrom({"MetalPlatform": gdjs.TestChamberCode.GDMetalPlatformObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.TestChamberCode.GDExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissileObjects1Objects = Hashtable.newFrom({"Missile": gdjs.TestChamberCode.GDMissileObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile2Objects1Objects = Hashtable.newFrom({"Missile2": gdjs.TestChamberCode.GDMissile2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDMissile3Objects1Objects = Hashtable.newFrom({"Missile3": gdjs.TestChamberCode.GDMissile3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerDieObjects1Objects = Hashtable.newFrom({"PlayerDie": gdjs.TestChamberCode.GDPlayerDieObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSpikeBallObjects1Objects = Hashtable.newFrom({"SpikeBall": gdjs.TestChamberCode.GDSpikeBallObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaserObjects2Objects = Hashtable.newFrom({"Laser": gdjs.TestChamberCode.GDLaserObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser2Objects2Objects = Hashtable.newFrom({"Laser2": gdjs.TestChamberCode.GDLaser2Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser3Objects2Objects = Hashtable.newFrom({"Laser3": gdjs.TestChamberCode.GDLaser3Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser4Objects2Objects = Hashtable.newFrom({"Laser4": gdjs.TestChamberCode.GDLaser4Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser5Objects2Objects = Hashtable.newFrom({"Laser5": gdjs.TestChamberCode.GDLaser5Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser6Objects2Objects = Hashtable.newFrom({"Laser6": gdjs.TestChamberCode.GDLaser6Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser7Objects2Objects = Hashtable.newFrom({"Laser7": gdjs.TestChamberCode.GDLaser7Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser8Objects2Objects = Hashtable.newFrom({"Laser8": gdjs.TestChamberCode.GDLaser8Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser9Objects2Objects = Hashtable.newFrom({"Laser9": gdjs.TestChamberCode.GDLaser9Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser10Objects2Objects = Hashtable.newFrom({"Laser10": gdjs.TestChamberCode.GDLaser10Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser11Objects2Objects = Hashtable.newFrom({"Laser11": gdjs.TestChamberCode.GDLaser11Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser12Objects2Objects = Hashtable.newFrom({"Laser12": gdjs.TestChamberCode.GDLaser12Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser13Objects2Objects = Hashtable.newFrom({"Laser13": gdjs.TestChamberCode.GDLaser13Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser14Objects2Objects = Hashtable.newFrom({"Laser14": gdjs.TestChamberCode.GDLaser14Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser15Objects2Objects = Hashtable.newFrom({"Laser15": gdjs.TestChamberCode.GDLaser15Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser16Objects2Objects = Hashtable.newFrom({"Laser16": gdjs.TestChamberCode.GDLaser16Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser17Objects2Objects = Hashtable.newFrom({"Laser17": gdjs.TestChamberCode.GDLaser17Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser18Objects2Objects = Hashtable.newFrom({"Laser18": gdjs.TestChamberCode.GDLaser18Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser19Objects2Objects = Hashtable.newFrom({"Laser19": gdjs.TestChamberCode.GDLaser19Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaser20Objects2Objects = Hashtable.newFrom({"Laser20": gdjs.TestChamberCode.GDLaser20Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLaserballObjects1Objects = Hashtable.newFrom({"Laserball": gdjs.TestChamberCode.GDLaserballObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSawObjects1Objects = Hashtable.newFrom({"Saw": gdjs.TestChamberCode.GDSawObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSaw2Objects1Objects = Hashtable.newFrom({"Saw2": gdjs.TestChamberCode.GDSaw2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSawObjects2Objects = Hashtable.newFrom({"Saw": gdjs.TestChamberCode.GDSawObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDSaw2Objects2Objects = Hashtable.newFrom({"Saw2": gdjs.TestChamberCode.GDSaw2Objects2});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDHeadObjects1Objects = Hashtable.newFrom({"Head": gdjs.TestChamberCode.GDHeadObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDBodyObjects1Objects = Hashtable.newFrom({"Body": gdjs.TestChamberCode.GDBodyObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLeftArmObjects1Objects = Hashtable.newFrom({"LeftArm": gdjs.TestChamberCode.GDLeftArmObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRightArmObjects1Objects = Hashtable.newFrom({"RightArm": gdjs.TestChamberCode.GDRightArmObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDLeftLegObjects1Objects = Hashtable.newFrom({"LeftLeg": gdjs.TestChamberCode.GDLeftLegObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDRightLegObjects1Objects = Hashtable.newFrom({"RightLeg": gdjs.TestChamberCode.GDRightLegObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotObjects1Objects = Hashtable.newFrom({"Octobot": gdjs.TestChamberCode.GDOctobotObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotObjects1Objects = Hashtable.newFrom({"Octobot": gdjs.TestChamberCode.GDOctobotObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobot2Objects1Objects = Hashtable.newFrom({"Octobot2": gdjs.TestChamberCode.GDOctobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobot2Objects1Objects = Hashtable.newFrom({"Octobot2": gdjs.TestChamberCode.GDOctobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotObjects1Objects = Hashtable.newFrom({"Octobot": gdjs.TestChamberCode.GDOctobotObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotExplosionObjects1Objects = Hashtable.newFrom({"OctobotExplosion": gdjs.TestChamberCode.GDOctobotExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobot2Objects1Objects = Hashtable.newFrom({"Octobot2": gdjs.TestChamberCode.GDOctobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotExplosionObjects1Objects = Hashtable.newFrom({"OctobotExplosion": gdjs.TestChamberCode.GDOctobotExplosionObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotObjects1Objects = Hashtable.newFrom({"Octobot": gdjs.TestChamberCode.GDOctobotObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot1Objects1Objects = Hashtable.newFrom({"OctobotFoot1": gdjs.TestChamberCode.GDOctobotFoot1Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot2Objects1Objects = Hashtable.newFrom({"OctobotFoot2": gdjs.TestChamberCode.GDOctobotFoot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot3Objects1Objects = Hashtable.newFrom({"OctobotFoot3": gdjs.TestChamberCode.GDOctobotFoot3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotBodyObjects1Objects = Hashtable.newFrom({"OctobotBody": gdjs.TestChamberCode.GDOctobotBodyObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotHeadObjects1Objects = Hashtable.newFrom({"OctobotHead": gdjs.TestChamberCode.GDOctobotHeadObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotPhysicsObjects1Objects = Hashtable.newFrom({"OctobotPhysics": gdjs.TestChamberCode.GDOctobotPhysicsObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.TestChamberCode.GDPlayerObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobot2Objects1Objects = Hashtable.newFrom({"Octobot2": gdjs.TestChamberCode.GDOctobot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot1Objects1Objects = Hashtable.newFrom({"OctobotFoot1": gdjs.TestChamberCode.GDOctobotFoot1Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot2Objects1Objects = Hashtable.newFrom({"OctobotFoot2": gdjs.TestChamberCode.GDOctobotFoot2Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotFoot3Objects1Objects = Hashtable.newFrom({"OctobotFoot3": gdjs.TestChamberCode.GDOctobotFoot3Objects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotBodyObjects1Objects = Hashtable.newFrom({"OctobotBody": gdjs.TestChamberCode.GDOctobotBodyObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotHeadObjects1Objects = Hashtable.newFrom({"OctobotHead": gdjs.TestChamberCode.GDOctobotHeadObjects1});gdjs.TestChamberCode.mapOfGDgdjs_46TestChamberCode_46GDOctobotPhysics2Objects1Objects = Hashtable.newFrom({"OctobotPhysics2": gdjs.TestChamberCode.GDOctobotPhysics2Objects1});gdjs.TestChamberCode.eventsList0xb23e0 = function(runtimeScene) {
 
 {
@@ -977,7 +977,7 @@ gdjs.TestChamberCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableSt
 }if ( gdjs.TestChamberCode.condition1IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition2IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12357772);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15424476);
 }
 }}
 }
@@ -1091,7 +1091,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableSt
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12361988);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15428876);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
@@ -1152,7 +1152,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJu
 {runtimeScene.getVariables().get("Missile1Wait").setNumber(4.5);
 }{runtimeScene.getVariables().get("Missile2Wait").setNumber(4.5);
 }{runtimeScene.getVariables().get("Missile3Wait").setNumber(4.5);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(6);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(6.1);
 }{runtimeScene.getVariables().get("LaserWaitMin").setNumber(5);
 }{runtimeScene.getVariables().get("LaserWaitMax").setNumber(30);
 }{runtimeScene.getVariables().get("OctoWaitMin").setNumber(12);
@@ -1172,20 +1172,20 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerEl
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12366564);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15433532);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("Missile1Wait").setNumber(4.3);
-}{runtimeScene.getVariables().get("Missile2Wait").setNumber(4.3);
-}{runtimeScene.getVariables().get("Missile3Wait").setNumber(4.3);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.8);
-}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(4.5);
+{runtimeScene.getVariables().get("Missile1Wait").setNumber(4.4);
+}{runtimeScene.getVariables().get("Missile2Wait").setNumber(4.4);
+}{runtimeScene.getVariables().get("Missile3Wait").setNumber(4.4);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(6);
+}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(4.8);
 }{runtimeScene.getVariables().get("LaserWaitMax").setNumber(30);
 }{runtimeScene.getVariables().get("SawWaitMin").setNumber(10);
 }{runtimeScene.getVariables().get("SawWaitMax").setNumber(25);
 }{runtimeScene.getVariables().get("OctoWaitMin").setNumber(12);
-}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(16);
+}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(17);
 }}
 
 }
@@ -1197,53 +1197,24 @@ if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
 gdjs.TestChamberCode.condition0IsTrue_0.val = false;
 gdjs.TestChamberCode.condition1IsTrue_0.val = false;
 {
-gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 20, "TimeSurvived");
+gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 25, "TimeSurvived");
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12368788);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15435764);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("Missile1Wait").setNumber(4.1);
-}{runtimeScene.getVariables().get("Missile2Wait").setNumber(4.1);
-}{runtimeScene.getVariables().get("Missile3Wait").setNumber(4.1);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.6);
-}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(4);
+{runtimeScene.getVariables().get("Missile1Wait").setNumber(4.2);
+}{runtimeScene.getVariables().get("Missile2Wait").setNumber(4.2);
+}{runtimeScene.getVariables().get("Missile3Wait").setNumber(4.2);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.8);
+}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(4.2);
 }{runtimeScene.getVariables().get("LaserWaitMax").setNumber(30);
 }{runtimeScene.getVariables().get("SawWaitMin").setNumber(8);
 }{runtimeScene.getVariables().get("SawWaitMax").setNumber(23);
 }{runtimeScene.getVariables().get("OctoWaitMin").setNumber(11);
-}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(15);
-}}
-
-}
-
-
-{
-
-
-gdjs.TestChamberCode.condition0IsTrue_0.val = false;
-gdjs.TestChamberCode.condition1IsTrue_0.val = false;
-{
-gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 30, "TimeSurvived");
-}if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
-{
-{gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12371012);
-}
-}}
-if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("Missile1Wait").setNumber(3.9);
-}{runtimeScene.getVariables().get("Missile2Wait").setNumber(3.9);
-}{runtimeScene.getVariables().get("Missile3Wait").setNumber(3.9);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.4);
-}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(3);
-}{runtimeScene.getVariables().get("LaserWaitMax").setNumber(30);
-}{runtimeScene.getVariables().get("SawWaitMin").setNumber(8);
-}{runtimeScene.getVariables().get("SawWaitMax").setNumber(21);
-}{runtimeScene.getVariables().get("OctoWaitMin").setNumber(10);
-}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(14);
+}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(16);
 }}
 
 }
@@ -1259,14 +1230,43 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerEl
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12373236);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15437996);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("Missile1Wait").setNumber(3.7);
-}{runtimeScene.getVariables().get("Missile2Wait").setNumber(3.7);
-}{runtimeScene.getVariables().get("Missile3Wait").setNumber(3.7);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.2);
+{runtimeScene.getVariables().get("Missile1Wait").setNumber(4);
+}{runtimeScene.getVariables().get("Missile2Wait").setNumber(4);
+}{runtimeScene.getVariables().get("Missile3Wait").setNumber(4);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.6);
+}{runtimeScene.getVariables().get("LaserWaitMin").setNumber(3);
+}{runtimeScene.getVariables().get("LaserWaitMax").setNumber(30);
+}{runtimeScene.getVariables().get("SawWaitMin").setNumber(8);
+}{runtimeScene.getVariables().get("SawWaitMax").setNumber(21);
+}{runtimeScene.getVariables().get("OctoWaitMin").setNumber(10);
+}{runtimeScene.getVariables().get("OctoWaitMax").setNumber(15);
+}}
+
+}
+
+
+{
+
+
+gdjs.TestChamberCode.condition0IsTrue_0.val = false;
+gdjs.TestChamberCode.condition1IsTrue_0.val = false;
+{
+gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 50, "TimeSurvived");
+}if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
+{
+{gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15440228);
+}
+}}
+if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
+{runtimeScene.getVariables().get("Missile1Wait").setNumber(3.8);
+}{runtimeScene.getVariables().get("Missile2Wait").setNumber(3.8);
+}{runtimeScene.getVariables().get("Missile3Wait").setNumber(3.8);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.4);
 }{runtimeScene.getVariables().get("LaserWaitMin").setNumber(3);
 }{runtimeScene.getVariables().get("LaserWaitMax").setNumber(28);
 }{runtimeScene.getVariables().get("SawWaitMin").setNumber(7);
@@ -1284,18 +1284,18 @@ if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
 gdjs.TestChamberCode.condition0IsTrue_0.val = false;
 gdjs.TestChamberCode.condition1IsTrue_0.val = false;
 {
-gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 50, "TimeSurvived");
+gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 60, "TimeSurvived");
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12375460);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15442460);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("Missile1Wait").setNumber(3.5);
 }{runtimeScene.getVariables().get("Missile2Wait").setNumber(3.5);
 }{runtimeScene.getVariables().get("Missile3Wait").setNumber(3.5);
-}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5);
+}{runtimeScene.getVariables().get("SpikeballWait").setNumber(5.2);
 }{runtimeScene.getVariables().get("LaserWaitMin").setNumber(3);
 }{runtimeScene.getVariables().get("LaserWaitMax").setNumber(26);
 }{runtimeScene.getVariables().get("SawWaitMin").setNumber(6);
@@ -1404,7 +1404,7 @@ for(var i = 0, k = 0, l = gdjs.TestChamberCode.GDPlayerObjects1.length;i<l;++i) 
 gdjs.TestChamberCode.GDPlayerObjects1.length = k;}if (gdjs.TestChamberCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbce61c(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebb2e4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1452,7 +1452,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableSt
 {gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "DoubleJumpTimer");
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbcee9c(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebbb7c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1499,7 +1499,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJu
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "PowerTimer");
 }{runtimeScene.getVariables().get("PowerX").setNumber(gdjs.randomInRange(20, 821));
 }{runtimeScene.getVariables().get("PowerDrop").setNumber(gdjs.randomInRange(7, 13));
-}{runtimeScene.getVariables().get("PowerType").setNumber(gdjs.randomInRange(1, 1));
+}{runtimeScene.getVariables().get("PowerType").setNumber(gdjs.randomInRange(1, 4));
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "CoinDozerFade");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "CoinDozerFade");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "DoubleJumpFade");
@@ -1666,7 +1666,7 @@ gdjs.TestChamberCode.GDCoinDozerPowerObjects1.createFrom(runtimeScene.getObjects
 }
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbd2a2c(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebf99c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1685,7 +1685,7 @@ gdjs.TestChamberCode.GDDoubleJumpPowerObjects1.createFrom(runtimeScene.getObject
 }
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbd2ef4(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xebfe64(runtimeScene);} //End of subevents
 }
 
 }
@@ -1704,7 +1704,7 @@ gdjs.TestChamberCode.GDInvincibilityPowerObjects1.createFrom(runtimeScene.getObj
 }
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbd33ec(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xec035c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1723,7 +1723,7 @@ gdjs.TestChamberCode.GDFreezePowerObjects1.createFrom(runtimeScene.getObjects("F
 }
 }
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbd3914(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xec0884(runtimeScene);} //End of subevents
 }
 
 }
@@ -2091,7 +2091,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 }if (gdjs.TestChamberCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.TestChamberCode.eventsList0xbd916c(runtimeScene);} //End of subevents
+gdjs.TestChamberCode.eventsList0xec622c(runtimeScene);} //End of subevents
 }
 
 }
@@ -3452,7 +3452,7 @@ gdjs.TestChamberCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerEl
 }if ( gdjs.TestChamberCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestChamberCode.conditionTrue_1 = gdjs.TestChamberCode.condition1IsTrue_0;
-gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12476836);
+gdjs.TestChamberCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15546972);
 }
 }}
 if (gdjs.TestChamberCode.condition1IsTrue_0.val) {
