@@ -177,6 +177,12 @@ gdjs.TitleScreenCode.GDStartBoxObjects1= [];
 gdjs.TitleScreenCode.GDStartBoxObjects2= [];
 gdjs.TitleScreenCode.GDHelpBoxObjects1= [];
 gdjs.TitleScreenCode.GDHelpBoxObjects2= [];
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects1= [];
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects2= [];
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects1= [];
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects2= [];
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects1= [];
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects2= [];
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects1= [];
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects2= [];
 gdjs.TitleScreenCode.GDHelp2Objects1= [];
@@ -189,10 +195,12 @@ gdjs.TitleScreenCode.GDRedPowerUpImageObjects1= [];
 gdjs.TitleScreenCode.GDRedPowerUpImageObjects2= [];
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1= [];
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects2= [];
-gdjs.TitleScreenCode.GDMalfunctionImageObjects1= [];
-gdjs.TitleScreenCode.GDMalfunctionImageObjects2= [];
 gdjs.TitleScreenCode.GDBackBoxObjects1= [];
 gdjs.TitleScreenCode.GDBackBoxObjects2= [];
+gdjs.TitleScreenCode.GDOctobotImageObjects1= [];
+gdjs.TitleScreenCode.GDOctobotImageObjects2= [];
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects1= [];
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects2= [];
 
 gdjs.TitleScreenCode.conditionTrue_0 = {val:false};
 gdjs.TitleScreenCode.condition0IsTrue_0 = {val:false};
@@ -210,11 +218,15 @@ gdjs.TitleScreenCode.condition0IsTrue_0.val = false;
 gdjs.TitleScreenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.TitleScreenCode.condition0IsTrue_0.val) {
 gdjs.TitleScreenCode.GDBackBoxObjects1.createFrom(runtimeScene.getObjects("BackBox"));
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.createFrom(runtimeScene.getObjects("BluePowerUpImage"));
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.createFrom(runtimeScene.getObjects("GreenPowerUpImage"));
 gdjs.TitleScreenCode.GDHelpObjects1.createFrom(runtimeScene.getObjects("Help"));
 gdjs.TitleScreenCode.GDHelp2Objects1.createFrom(runtimeScene.getObjects("Help2"));
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects1.createFrom(runtimeScene.getObjects("HelpPowerUps"));
-gdjs.TitleScreenCode.GDMalfunctionImageObjects1.createFrom(runtimeScene.getObjects("MalfunctionImage"));
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps2"));
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps3"));
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps4"));
+gdjs.TitleScreenCode.GDOctobotImageObjects1.createFrom(runtimeScene.getObjects("OctobotImage"));
 gdjs.TitleScreenCode.GDPurplePowerUpImageObjects1.createFrom(runtimeScene.getObjects("PurplePowerUpImage"));
 gdjs.TitleScreenCode.GDRedPowerUpImageObjects1.createFrom(runtimeScene.getObjects("RedPowerUpImage"));
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "doxent_-_Kaaistoep.mp3", 1, true, 75, 1);
@@ -238,11 +250,23 @@ gdjs.TitleScreenCode.GDRedPowerUpImageObjects1.createFrom(runtimeScene.getObject
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.TitleScreenCode.GDMalfunctionImageObjects1.length ;i < len;++i) {
-    gdjs.TitleScreenCode.GDMalfunctionImageObjects1[i].hide();
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDBluePowerUpImageObjects1[i].hide();
 }
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDBackBoxObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDBackBoxObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps2Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps3Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps4Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDOctobotImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDOctobotImageObjects1[i].hide();
 }
 }}
 
@@ -295,11 +319,15 @@ gdjs.TitleScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }}
 if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 gdjs.TitleScreenCode.GDBackBoxObjects1.createFrom(runtimeScene.getObjects("BackBox"));
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.createFrom(runtimeScene.getObjects("BluePowerUpImage"));
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.createFrom(runtimeScene.getObjects("GreenPowerUpImage"));
 gdjs.TitleScreenCode.GDHelpObjects1.createFrom(runtimeScene.getObjects("Help"));
 gdjs.TitleScreenCode.GDHelp2Objects1.createFrom(runtimeScene.getObjects("Help2"));
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects1.createFrom(runtimeScene.getObjects("HelpPowerUps"));
-gdjs.TitleScreenCode.GDMalfunctionImageObjects1.createFrom(runtimeScene.getObjects("MalfunctionImage"));
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps2"));
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps3"));
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps4"));
+gdjs.TitleScreenCode.GDOctobotImageObjects1.createFrom(runtimeScene.getObjects("OctobotImage"));
 gdjs.TitleScreenCode.GDPurplePowerUpImageObjects1.createFrom(runtimeScene.getObjects("PurplePowerUpImage"));
 gdjs.TitleScreenCode.GDRedPowerUpImageObjects1.createFrom(runtimeScene.getObjects("RedPowerUpImage"));
 gdjs.TitleScreenCode.GDWindowHelpObjects1.length = 0;
@@ -332,11 +360,23 @@ gdjs.TitleScreenCode.GDWindowHelpObjects1.length = 0;
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.TitleScreenCode.GDMalfunctionImageObjects1.length ;i < len;++i) {
-    gdjs.TitleScreenCode.GDMalfunctionImageObjects1[i].hide(false);
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDBluePowerUpImageObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDBackBoxObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDBackBoxObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps2Objects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps3Objects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps4Objects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDOctobotImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDOctobotImageObjects1[i].hide(false);
 }
 }}
 
@@ -357,11 +397,15 @@ gdjs.TitleScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }}
 if (gdjs.TitleScreenCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.TitleScreenCode.GDBackBoxObjects1 */
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.createFrom(runtimeScene.getObjects("BluePowerUpImage"));
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.createFrom(runtimeScene.getObjects("GreenPowerUpImage"));
 gdjs.TitleScreenCode.GDHelpObjects1.createFrom(runtimeScene.getObjects("Help"));
 gdjs.TitleScreenCode.GDHelp2Objects1.createFrom(runtimeScene.getObjects("Help2"));
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects1.createFrom(runtimeScene.getObjects("HelpPowerUps"));
-gdjs.TitleScreenCode.GDMalfunctionImageObjects1.createFrom(runtimeScene.getObjects("MalfunctionImage"));
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps2"));
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps3"));
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.createFrom(runtimeScene.getObjects("HelpPowerUps4"));
+gdjs.TitleScreenCode.GDOctobotImageObjects1.createFrom(runtimeScene.getObjects("OctobotImage"));
 gdjs.TitleScreenCode.GDPurplePowerUpImageObjects1.createFrom(runtimeScene.getObjects("PurplePowerUpImage"));
 gdjs.TitleScreenCode.GDRedPowerUpImageObjects1.createFrom(runtimeScene.getObjects("RedPowerUpImage"));
 gdjs.TitleScreenCode.GDWindowHelpObjects1.createFrom(runtimeScene.getObjects("WindowHelp"));
@@ -386,11 +430,23 @@ gdjs.TitleScreenCode.GDWindowHelpObjects1.createFrom(runtimeScene.getObjects("Wi
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.TitleScreenCode.GDMalfunctionImageObjects1.length ;i < len;++i) {
-    gdjs.TitleScreenCode.GDMalfunctionImageObjects1[i].hide();
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDBluePowerUpImageObjects1[i].hide();
 }
 }{for(var i = 0, len = gdjs.TitleScreenCode.GDBackBoxObjects1.length ;i < len;++i) {
     gdjs.TitleScreenCode.GDBackBoxObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps2Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps3Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDHelpPowerUps4Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.TitleScreenCode.GDOctobotImageObjects1.length ;i < len;++i) {
+    gdjs.TitleScreenCode.GDOctobotImageObjects1[i].hide();
 }
 }}
 
@@ -590,6 +646,12 @@ gdjs.TitleScreenCode.GDStartBoxObjects1.length = 0;
 gdjs.TitleScreenCode.GDStartBoxObjects2.length = 0;
 gdjs.TitleScreenCode.GDHelpBoxObjects1.length = 0;
 gdjs.TitleScreenCode.GDHelpBoxObjects2.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects1.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps2Objects2.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects1.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps3Objects2.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects1.length = 0;
+gdjs.TitleScreenCode.GDHelpPowerUps4Objects2.length = 0;
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects1.length = 0;
 gdjs.TitleScreenCode.GDHelpPowerUpsObjects2.length = 0;
 gdjs.TitleScreenCode.GDHelp2Objects1.length = 0;
@@ -602,10 +664,12 @@ gdjs.TitleScreenCode.GDRedPowerUpImageObjects1.length = 0;
 gdjs.TitleScreenCode.GDRedPowerUpImageObjects2.length = 0;
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects1.length = 0;
 gdjs.TitleScreenCode.GDGreenPowerUpImageObjects2.length = 0;
-gdjs.TitleScreenCode.GDMalfunctionImageObjects1.length = 0;
-gdjs.TitleScreenCode.GDMalfunctionImageObjects2.length = 0;
 gdjs.TitleScreenCode.GDBackBoxObjects1.length = 0;
 gdjs.TitleScreenCode.GDBackBoxObjects2.length = 0;
+gdjs.TitleScreenCode.GDOctobotImageObjects1.length = 0;
+gdjs.TitleScreenCode.GDOctobotImageObjects2.length = 0;
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects1.length = 0;
+gdjs.TitleScreenCode.GDBluePowerUpImageObjects2.length = 0;
 
 gdjs.TitleScreenCode.eventsList0xb23e0(runtimeScene);
 return;
